@@ -1,5 +1,13 @@
 # Questions and Decisions towards App prototype
 
+## Description
+Create a React-based single page app to perform searches against the Guardian content API and displays the results.
+
+* The app should take user input from a text field, ​as the user types​ it should take that input and use it to perform a search against the Guardian’s content API - ​https://open-platform.theguardian.com/
+* Given the result of that API call it should display a list of results, grouped by the Section of the Guardian the items are found in.
+* The results for each item should show the Title, link and publication date (formatted as DD/MM/YYYY).
+* Each item should have a button/checkbox that allows it to be bookmarked/pinned. Pinned items should appear below the search results, and stay on screen as search results change.
+
 ## Questions
 
 * The search should perform during the process of user input the text, or when the user finishes input text, then press "search" button, then execute the search function?
